@@ -29,6 +29,22 @@ export class ServicesComponent implements OnInit {
       }
     },
     {
+      img:"https://image.flaticon.com/icons/svg/1829/1829734.svg", 
+      title:"No Hidden Costs",
+      desc: {
+        line0: "Lorem ipsum dolor sit amet",
+        line1: "consectetur adipiscing elit!"
+      }
+    },
+    {
+      img:"https://image.flaticon.com/icons/svg/1829/1829734.svg", 
+      title:"Flexi Pricing",
+      desc: {
+        line0: "Lorem ipsum dolor sit amet",
+        line1: "consectetur adipiscing elit!"
+      }
+    },
+    {
       img:"https://image.flaticon.com/icons/svg/1909/1909673.svg", 
       title:"Professional Chauffeur",
       desc: {
@@ -45,11 +61,11 @@ export class ServicesComponent implements OnInit {
       }
     },
     {
-      img:"https://image.flaticon.com/icons/svg/1829/1829734.svg", 
-      title:"No Hidden Costs",
+      img:"https://image.flaticon.com/icons/svg/2476/2476160.svg", 
+      title:"Go Anywhere",
       desc: {
-        line0: "Lorem ipsum dolor sit amet",
-        line1: "consectetur adipiscing elit!"
+        line0: "We are always",
+        line1: "available at your service"
       }
     }
   ]
