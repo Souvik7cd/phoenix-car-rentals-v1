@@ -1,4 +1,4 @@
-<nav class="w3-sidebar w3-bar-block w3-red-d5 w3-hide-small w3-small w3-center" style="width: 90px;">
+<nav class="w3-sidebar w3-bar-block w3-red-d4 w3-hide-small w3-small w3-center" style="width: 90px;">
 	<!--<div class="w3-padding w3-opacity w3-red-l2" style="font-weight: bolder;">
 		<div class="w3-large">Phoenix</div>
 		<div class="w3-small">CAR RENTALS</div>
@@ -16,12 +16,13 @@
     </button>
 	</div>
 </nav>
-<nav class="w3-bar w3-bottom w3-hide-large w3-hide-medium w3-red-d3" style=" box-shadow: black 0 -2px 10px;">
+<nav class="w3-bar w3-bottom w3-hide-large w3-hide-medium w3-red-d4" style=" box-shadow: black 0 -2px 10px;">
 	<div class="w3-center" *ngFor="let link of navLinks; let i = index">
 		<button (click)="sendElementIndex(i)"
-            class="w3-bar-item w3-button w3-hover-red-d5 w3-hover-text-gray w3-small" style="width: 25%;">
+            class="w3-bar-item w3-button w3-hover-red-d5 w3-hover-text-gray w3-small" 
+            style="width: 25%; padding: 8px 4px 6px 4px">
             <span class="w3-large"><i [class]="link.icon"></i></span><br>
-            <span class="w3-small w3-upper">{{link.name}}</span>
+            <span class="w3-tiny w3-upper">{{link.name}}</span>
     </button>
 	</div>
 </nav>

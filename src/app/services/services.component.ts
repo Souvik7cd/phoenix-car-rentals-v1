@@ -21,7 +21,7 @@ export class ServicesComponent implements OnInit {
 
   services = [
     {
-      img: "https://image.flaticon.com/icons/svg/1965/1965206.svg",
+      img: "https://image.flaticon.com/icons/svg/1965/1965214.svg",
       title: "Easy Rentals",
       desc: {
         line0: "Give us a call, message",
@@ -29,7 +29,7 @@ export class ServicesComponent implements OnInit {
       }
     },
     {
-      img:"https://image.flaticon.com/icons/svg/1829/1829734.svg", 
+      img:"https://image.flaticon.com/icons/svg/1735/1735835.svg", 
       title:"No Hidden Costs",
       desc: {
         line0: "Lorem ipsum dolor sit amet",
@@ -37,7 +37,7 @@ export class ServicesComponent implements OnInit {
       }
     },
     {
-      img:"https://image.flaticon.com/icons/svg/1829/1829734.svg", 
+      img:"https://image.flaticon.com/icons/svg/1735/1735114.svg", 
       title:"Flexi Pricing",
       desc: {
         line0: "Lorem ipsum dolor sit amet",
@@ -45,7 +45,7 @@ export class ServicesComponent implements OnInit {
       }
     },
     {
-      img:"https://image.flaticon.com/icons/svg/1909/1909673.svg", 
+      img:"https://image.flaticon.com/icons/svg/1909/1909702.svg", 
       title:"Professional Chauffeur",
       desc: {
         line0: "Our expert hands will",
@@ -53,7 +53,7 @@ export class ServicesComponent implements OnInit {
       }
     },
     {
-      img:"https://image.flaticon.com/icons/svg/2476/2476160.svg", 
+      img:"https://image.flaticon.com/icons/svg/1253/1253979.svg", 
       title:"24x7 Service",
       desc: {
         line0: "We are always",
@@ -61,7 +61,7 @@ export class ServicesComponent implements OnInit {
       }
     },
     {
-      img:"https://image.flaticon.com/icons/svg/2476/2476160.svg", 
+      img:"https://image.flaticon.com/icons/svg/503/503080.svg", 
       title:"Go Anywhere",
       desc: {
         line0: "We are always",
