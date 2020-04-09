@@ -31,12 +31,12 @@ h1,h2,h3,h4,h5,h6,.w3-large,.w3-xlarge,.w3-xxxlarge {font-family: 'Montserrat', 
 }
 @media only screen and (max-width: 1024px) {
     .content {
-        margin-left: 10vw;
+        margin-left: 9vw;
     }
 }
 @media only screen and (max-width: 768px) {
     .content {
-        margin-left: 13vw;
+        margin-left: 12vw;
     }
     .image-width {
         width: 100vw;
