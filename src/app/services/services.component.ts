@@ -53,7 +53,7 @@ export class ServicesComponent implements OnInit {
       }
     },
     {
-      img:"https://image.flaticon.com/icons/svg/1253/1253979.svg", 
+      img:"https://image.flaticon.com/icons/svg/2191/2191848.svg", 
       title:"24x7 Customer Help",
       desc: {
         line0: "We are available",
@@ -61,7 +61,7 @@ export class ServicesComponent implements OnInit {
       }
     },
     {
-      img:"https://image.flaticon.com/icons/svg/503/503080.svg", 
+      img:"https://image.flaticon.com/icons/svg/784/784719.svg", 
       title:"Reliable Service",
       desc: {
         line0: "We are the best",
