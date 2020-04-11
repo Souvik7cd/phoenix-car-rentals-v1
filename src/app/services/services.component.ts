@@ -54,17 +54,17 @@ export class ServicesComponent implements OnInit {
     },
     {
       img:"https://image.flaticon.com/icons/svg/1253/1253979.svg", 
-      title:"24x7 Service",
+      title:"24x7 Customer Help",
       desc: {
-        line0: "We are always",
-        line1: "available at your service"
+        line0: "We are available",
+        line1: "round-the-clock for you"
       }
     },
     {
       img:"https://image.flaticon.com/icons/svg/503/503080.svg", 
-      title:"Go Anywhere",
+      title:"Reliable Service",
       desc: {
-        line0: "We are always",
+        line0: "We are the best",
         line1: "available at your service"
       }
     }
