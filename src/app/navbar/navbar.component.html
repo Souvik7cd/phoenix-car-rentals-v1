@@ -1,27 +1,27 @@
-<nav class="w3-sidebar w3-bar-block w3-red-d4 w3-hide-small w3-hide-medium w3-small w3-center" style="width: 90px;">
+<nav class="w3-sidebar w3-bar-block w3-red-d4 w3-hide-small w3-hide-medium w3-small w3-center" style="width: 70px;">
 	<div style="padding: 16px 0px 40px 0px">
-		<img src="https://vectr.com/souvik7cd/gayvYuUiNE.svg?width=229.75&height=262.46&select=group_bjWWuvT0h&source=selection" class="w3-image" style="width: 55px">
+		<img src="https://vectr.com/souvik7cd/gayvYuUiNE.svg?width=229.75&height=262.46&select=group_bjWWuvT0h&source=selection" class="w3-image" style="width: 50px">
   </div>
 		<div *ngFor="let link of navLinks; let i = index">
 			<button (click)="sendElementIndex(i)"
             class="w3-bar-item w3-button w3-hover-white"
             style="padding: 12px 0px;">
-            <span class="w3-xxlarge"><i [class]="link.icon"></i></span><br>
-            <span class="w3-small w3-upper">{{link.name}}</span>
+            <span class="w3-xlarge"><i [class]="link.icon"></i></span><br>
+            <span>{{link.name}}</span>
       </button>
 		</div>
 </nav>
 
-<nav class="w3-sidebar w3-bar-block w3-red-d4 w3-hide-small w3-hide-large w3-small w3-center" style="width: 75px;">
+<nav class="w3-sidebar w3-bar-block w3-red-d4 w3-hide-small w3-hide-large w3-small w3-center" style="width: 60px;">
 	<div style="padding: 16px 0px 30px 0px">
-		<img src="https://vectr.com/souvik7cd/gayvYuUiNE.svg?width=229.75&height=262.46&select=group_bjWWuvT0h&source=selection" class="w3-image" style="width: 45px">
+		<img src="https://vectr.com/souvik7cd/gayvYuUiNE.svg?width=229.75&height=262.46&select=group_bjWWuvT0h&source=selection" class="w3-image" style="width: 35px">
   </div>
 		<div *ngFor="let link of navLinks; let i = index">
 			<button (click)="sendElementIndex(i)"
             class="w3-bar-item w3-button w3-hover-white"
             style="padding: 8px 0px;">
             <span class="w3-xlarge"><i [class]="link.icon"></i></span><br>
-            <span class="w3-small w3-upper">{{link.name}}</span>
+            <span class="w3-tiny">{{link.name}}</span>
       </button>
 		</div>
 </nav>
