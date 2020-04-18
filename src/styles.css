@@ -16,7 +16,7 @@ h1,h2,h3,h4,h5,h6,.w3-large,.w3-xlarge,.w3-xxxlarge {font-family: 'Montserrat', 
 }
 @media only screen and (max-width: 1440px) {
     .content {
-        margin-left: 14vw;
+        margin-left: 13vw;
     }
     .image-width {
       object-fit: cover;
@@ -26,7 +26,8 @@ h1,h2,h3,h4,h5,h6,.w3-large,.w3-xlarge,.w3-xxxlarge {font-family: 'Montserrat', 
 }
 @media only screen and (max-width: 1366px) {
     .content {
-        margin-left: 12vw;
+        margin-left: 9.5vw;
+        width: 87%
     }
 }
 @media only screen and (max-width: 1024px) {
