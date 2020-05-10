@@ -46,6 +46,7 @@ h1,h2,h3,h4,h5,h6,.w3-large,.w3-xlarge,.w3-xxxlarge {font-family: 'Montserrat', 
 }
 @media only screen and (max-width: 425px) {
     .content {
+        width: 100%;
         margin-left: 0;
     }
 }
