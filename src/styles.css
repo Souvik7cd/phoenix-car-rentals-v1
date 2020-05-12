@@ -1,17 +1,17 @@
 /* Add application styles & imports to this file! */
 
-html,body {font-family: 'Lato', sans-serif; font-size: large}
+html,body {font-family: 'Lato', sans-serif;}
 h1,h2,h3,h4,h5,h6,.w3-large,.w3-xlarge,.w3-xxxlarge {font-family: 'Montserrat', sans-serif;}
 .underline { height: 2px; width: 180px; }
 
 @media only screen and (max-width: 2560px) {
+    html, body {font-size: large}
     .content {
-        margin-left: 30vw;
+        margin-left: 5vw;
     }
     .image-width {
       object-fit: cover;
-      width: 100vw;
-      
+      width: 100vw; 
     }
 }
 @media only screen and (max-width: 1440px) {
@@ -36,17 +36,18 @@ h1,h2,h3,h4,h5,h6,.w3-large,.w3-xlarge,.w3-xxxlarge {font-family: 'Montserrat', 
     }
 }
 @media only screen and (max-width: 768px) {
-    .content {
-        margin-left: 12vw;
-    }
-    .image-width {
-        width: 100vw;
-        height: 70vw;
-    }
+  .content {
+    margin-left: 12vw;
+  }
+  .image-width {
+    width: 100vw;
+    height: 70vw;
+  }
 }
 @media only screen and (max-width: 425px) {
-    .content {
-        width: 100%;
-        margin-left: 0;
-    }
+  html, body {font-size: medium}
+  .content {
+    width: 100%;
+    margin-left: 0;
+  }
 }

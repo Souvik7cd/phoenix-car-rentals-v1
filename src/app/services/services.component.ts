@@ -13,7 +13,7 @@ export class ServicesComponent implements OnInit {
   }
 
   servicesMsg: string = `
-    We provide Airport Transfers, Inter/Intra City Rides, Hotel Transfers, Full day rentals to all our travellers with our well-maintained cars , skilled and disciplined chauffeurs. We are available round the clock for your support. Our focal point of operation is exceeding customer expectation and ensuring customer satisfaction.
+    We provide Airport Transfers, Inter/Intra City Rides, Hotel Transfers, Full day rentals to all our travellers with our well-maintained cars , skilled and disciplined chauffeurs. We are available round the clock for your support. Our focal point of operation is exceeding customer expectation and ensuring customer satisfaction, to deliver unmatched car rental experiences to our Customers; by ensuring seamless travel in well-maintained vehicles with excellent service and affordability. For us the Journey is as fundamental as the Destination. 
   `;
 
   services = [
