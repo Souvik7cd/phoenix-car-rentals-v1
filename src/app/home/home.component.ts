@@ -22,6 +22,9 @@ export class HomeComponent implements OnInit {
     'https://cdn.pixabay.com/photo/2017/05/31/09/11/car-2359573_960_720.jpg'
   ]
 
+  helpline = '8240111632';
+  a_helpline = 'tel:+91' + this.helpline;
+
   carousel(): any {
     if (this.index === this.imgSources.length - 1)
       this.index = 0;

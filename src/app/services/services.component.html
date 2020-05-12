@@ -7,14 +7,14 @@
 </div>
 <div class="w3-container">
 	<div class="w3-row-padding w3-section">
-		<div class="w3-col l4 m6 w3-padding-small" *ngFor="let service of services">
+		<div class="w3-col l3 m6 w3-padding-small" *ngFor="let service of services">
 			<div class="w3-card w3-red-l5 w3-hover-white w3-center" style="padding: 16px 0">
 				<img [src]="service.img" [alt]="service.title" width="50px">
-				<div class="w3-large w3-text-red-d3" style="margin-top: 6px"><b>{{service.title}}</b></div>
-				<div style="margin-top: 8px">
+				<div class="w3-large w3-text-red-d3 w3-padding" style="margin-top: 6px"><b>{{service.title}}</b></div>
+				<!-- <div style="margin-top: 8px">
 					<div style="font-size:0.82em;">{{service.desc.line0}}</div>
 					<div style="font-size:0.82em;">{{service.desc.line1}}</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
